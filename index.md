@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IxDer's Notebook
+title: Some Notes
 tagline: data vizualization, frond-end, IxD
 ---
 {% include JB/setup %}

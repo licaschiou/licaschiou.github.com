@@ -7,10 +7,10 @@ tags: [Angularjs]
 ---
 {% include JB/setup %}
 
-### Motivation   
+#### Motivation   
 To use ng-repeat to dynamically generate directives according to dataset. Each directive controls the assign dataset element.  
 
-### Sample Code
+#### Sample Code
 
 The ng-repeat block :  
 
@@ -42,7 +42,7 @@ The slider directive html:
 <input type="range" ng-model="data.value">   
 {% endhighlight %}
 
-### Notes
+#### Notes
 
 * The wrong practice :
 
