@@ -2,7 +2,7 @@
 layout: post
 title: "Embed d3 graphics in Jekyll"
 description: ""
-category: 
+category: Tech
 tags: [d3.js, Angularjs, gist]
 ---
 {% include JB/setup %}

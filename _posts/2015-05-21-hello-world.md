@@ -2,7 +2,7 @@
 layout: post
 title: "Some notes about ng-model in ng-repeat"
 description: ""
-category: 
+category: Tech
 tags: [Angularjs]
 ---
 {% include JB/setup %}
