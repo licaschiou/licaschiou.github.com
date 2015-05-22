@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ng-model in ng-repeat"
+title: "Some notes about ng-model in ng-repeat"
 description: ""
 category: 
 tags: [Angularjs]
