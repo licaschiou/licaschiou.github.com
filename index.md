@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Some Notes
+title: C.W.C
 tagline: data vizualization, frond-end, IxD
 ---
 {% include JB/setup %}
