@@ -5,13 +5,16 @@ tagline: data vizualization, frond-end, IxD
 ---
 {% include JB/setup %}
 
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
    <p class="author">
     <span class="date">{{post.date | date: "%Y-%m-%d"}}</span>
   </p>
   <div class="content">
-    {{ post.content }}
+     {{ post.content | split:'<!--break-->' | first }}
+     {% if post.content contains '<!--break-->' %}
+        <a href="{{ post.url }}">read more</a>
+     {% endif %}
   </div>
   <div class="content-space"></div>
 {% endfor %}
