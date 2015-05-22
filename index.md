@@ -1,6 +1,6 @@
 ---
 layout: page
-title: C.W.C
+title: Chiu Wei Chieh
 tagline: data vizualization, frond-end, IxD
 ---
 {% include JB/setup %}
