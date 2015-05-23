@@ -7,7 +7,7 @@ tags: [d3.js, Angularjs, gist]
 ---
 {% include JB/setup %}
 
-The goal is to embed d3 graphic in blog post. I follow the steps in [this article](http://www.biovisualize.com/2012/07/embedding-d3js-in-blog-post.html). 
+The goal is to embed d3 graphic in blog post. I follow the steps in [this article](http://www.biovisualize.com/2012/07/embedding-d3js-in-blog-post.html){:target="_blank"}. 
 
 1. Create Github Gist and then paste the source code. Be sure to change the source path to "./".  
 2. Install bl.ocks.org extension for your browser. Then there will be a new button under "Download Gist". Clicking it will bring us to the bl.ocks viewer of the gist.

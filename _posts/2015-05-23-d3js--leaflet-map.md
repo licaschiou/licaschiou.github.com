@@ -25,7 +25,7 @@ The first step is to initialize a leaflet map object. This map object will provi
 var map = L.map('map').setView([25.046374, 121.517896], 13); 
 {% endhighlight %}
 
-Then setup tileLayer for the map. Different tileLayers vary style and detail. [Here are different map providers and their demo.](http://leaflet-extras.github.io/leaflet-providers/preview/)
+Then setup tileLayer for the map. Different tileLayers vary style and detail. [Here are different map providers and their demo.](http://leaflet-extras.github.io/leaflet-providers/preview/){:target="_blank"}
 
 {% highlight javascript %}
 L.tileLayer(
@@ -60,7 +60,7 @@ function projectPosition() {
 {% endhighlight %}
 
 #### Citation
-The Taipei MRT data I used here is from [longitude and latitude of Taipei MRT stations.](http://michaelhsu.tw/2013/06/25/%E6%8D%B7%E9%81%8B%E7%AB%99%E7%B6%93%E7%B7%AF%E5%BA%A6%E5%9D%90%E6%A8%99-open-data/)
+The Taipei MRT data I used here is from [longitude and latitude of Taipei MRT stations.](http://michaelhsu.tw/2013/06/25/%E6%8D%B7%E9%81%8B%E7%AB%99%E7%B6%93%E7%B7%AF%E5%BA%A6%E5%9D%90%E6%A8%99-open-data/){:target="_blank"}
 
 #### Source code
 [Gist](https://gist.github.com/licaschiou/5bcc3cad999584c71f81)
