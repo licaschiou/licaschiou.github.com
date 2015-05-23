@@ -3,13 +3,13 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: Pygments 
+highlighter: pygments 
 #highlighter: rouge 
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : C'est noté
+title : DDData
 tagline: data vizualization, frond-end programming, IxD
 author :
   name : Chiu Wei Chieh 

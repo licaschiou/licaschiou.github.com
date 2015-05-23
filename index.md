@@ -1,6 +1,6 @@
 ---
 layout: page
-title: C'est noté
+title: DDData
 tagline: data vizualization, frond-end, IxD
 ---
 {% include JB/setup %}
