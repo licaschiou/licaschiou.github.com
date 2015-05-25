@@ -15,6 +15,8 @@
     <![endif]-->
 
     <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
@@ -38,9 +40,9 @@
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+            <li class="archive"><a href="/archive.html">archive</a></li>
+            <li class="category"><a href="/categories.html">categories</a></li>
+            <li class="tag"><a href="/tags.html">tags</a></li>  
           </ul>
         </div>
       </div>

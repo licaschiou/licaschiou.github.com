@@ -9,7 +9,12 @@ tags: [Jekyll, github]
 
 * Code hightlight syntax issue: 
 	I tried to use the familiar triple ` syntax, but Jekyll keeps generating funky results. I have to switch to 
-	{% gist 26c5de10948f794a1222 %}
+	{% raw %}
+	{% highlight javascript %}  
+	someCode();  
+	moreCode();  
+	{% endhighlight %}  
+	{% endraw %}
 	to get the right result. Note that the double quotes in the syntax were put to prevent the text been converted.
 * Having pages build failure issuse:
 	When I first encountered the code highlighting issue, I tried rouge highlighter and it worked under localhost. But when I pushed the repository to Github, pages build failures happened. After some digging, I found [the follow document](https://help.github.com/articles/page-build-failed-config-file-error/).
