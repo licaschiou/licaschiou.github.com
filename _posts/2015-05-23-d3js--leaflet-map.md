@@ -7,7 +7,7 @@ tags: [d3.js, leaflet]
 ---
 {% include JB/setup %}
 
-<iframe frameborder="0" height="600" marginheight="0" marginwidth="0" scrolling="no" src="http://bl.ocks.org/licaschiou/raw/5bcc3cad999584c71f81/" width="800"></iframe>
+<iframe frameborder="0" height="600" marginheight="0" marginwidth="0" scrolling="no" src="http://bl.ocks.org/licaschiou/raw/5bcc3cad999584c71f81/" width="100%"></iframe>
 
 #### Motivation
 
