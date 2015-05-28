@@ -2,8 +2,8 @@
 layout: post
 title: "Taipei MRT passenger visualization"
 description: ""
-category: 
-tags: []
+category: Tech
+tags: [d3.js, leaflet]
 ---
 {% include JB/setup %}
 
