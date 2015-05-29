@@ -19,7 +19,7 @@ This is a simple exploratory analysis, no association or causality implied.
 
 #### The Data  
 
-1. [FDA food safety violation dataset.](http://data.fda.gov.tw/frontsite/data/DataAction.do?method=doDetail&infoId=52){:target="_blank"}.
+1. [FDA food safety violation dataset.](http://data.fda.gov.tw/frontsite/data/DataAction.do?method=doDetail&infoId=52){:target="_blank"}
 2. [Taiwan food scandals.](http://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E9%A3%9F%E5%93%81%E5%AE%89%E5%85%A8%E4%BA%8B%E4%BB%B6%E5%88%97%E8%A1%A8){:target="_blank"}
 
 #### Data Processing  
@@ -44,7 +44,7 @@ This is a simple exploratory analysis, no association or causality implied.
 2. Most cases violate pesticide(1384), preservative(286) and veterinary drug(198) residue standard.  
 3. Most food scandals are local cases.  
 
-Without detail information the case number doesn't tell us much. For example, the reason why there are more cases from Japan could be that we love Japanese food and import much more from Japan than from other countries. 
+Without detail information, the case number doesn't tell us much. For example, the reason why there are more cases from Japan could be that we love Japanese food and import much more from Japan than from other countries. 
 
 However, the food scandals are serious problems. Even though FDA tried to prevent bad food from importing into Taiwan. They failed to regulate local food companies and the situation is getting worse.  
 

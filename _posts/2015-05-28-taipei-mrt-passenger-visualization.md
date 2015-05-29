@@ -12,11 +12,16 @@ tags: [d3.js, leaflet]
 
 #### Motivation  
 
-Explore the Taipei MRT passenger count dataset and look for any patterns or outliers.        
+To explore the Taipei MRT passenger count dataset and look for any patterns or outliers.        
 
-#### Load data
+#### The data
 
-In this project, we are going to load three datasets and merge them together. To deal with the asynchronous loading, I create a custom loader. This loader accepts an array of urls and loads them one by one. When all files are loaded, the loader will fire a dataLoaded event. When we receive this event, we can start data processing.
+1. [Taipei MRT passenger count dataset.](http://data.taipei/opendata/datalist/datasetMeta?oid=1d71c478-205f-42c5-8386-35f86d74fdd1){:target="_blank"}  
+2. [Taipei MRT information.](http://kuro.tw/posts/2015/05/20/join-the-d3-in-google-map-image){:target="_blank"}  
+
+#### Data Processing 
+
+1. Load data files. Use a custom loader to deal with asynchronous loading. This loader accepts an array of urls and loads them one by one. When all files are loaded, the loader will fire a dataLoaded event, then move on to data processing.
 
 {% highlight javascript %}
 var csv = d3.dsv(",", "text/csv; charset=big5"); //Dataset contains chinese characters.
@@ -52,8 +57,8 @@ MultiDataLoader.prototype = Object.create(EventTarget.prototype, {
 
 The main dataset is an array of objects which represent MRT stations.   
 1. First, extract the list of stations and create station object for each item in the list.  
-2. Then fill in the basic information such as line, id, etc, by matching the station name.  
-3. The passenger count data will be an object like this. So we can use the date as the key to get the count.
+2. Then assign the basic information such as line, id, etc, to the station name.  
+3. The passenger count data will be an object like this.
 
 {% highlight javascript %}
 passengerCount = {
@@ -64,15 +69,12 @@ passengerCount = {
 
 #### Visualization
 
-1. Use two circles to reprecent passenger-in and passenger-out.   
-2. On mouseover, display the count number and the average.   
+1. Use different stroke style to represent passenger-in and passenger-out.   
+2. Use color to represent the MRT lines.  
+3. The size of circle represent the passenger count.  
+4. On mouseover, display the count number and the average on the top-left corner.   
 
 [Check the result in full screen.](http://licaschiou.github.io/TaipeiMrtPassengerCount/){:target="_blank"}
-
-#### Citation  
-
-1. [Taipei MRT passenger count dataset.](http://data.taipei/opendata/datalist/datasetMeta?oid=1d71c478-205f-42c5-8386-35f86d74fdd1){:target="_blank"}  
-2. [Taipei MRT information.](http://kuro.tw/posts/2015/05/20/join-the-d3-in-google-map-image){:target="_blank"}  
 
 #### Source code  
 
