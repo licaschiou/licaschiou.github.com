@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DDData
-tagline: data vizualization, frond-end, IxD
+tagline: design, development, data vizualization
 ---
 {% include JB/setup %}
 
