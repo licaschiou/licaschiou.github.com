@@ -2,8 +2,8 @@
 layout: post
 title: "FDA Food Standard Violation Data Visualization"
 description: ""
-category: 
-tags: []
+category: Tech
+tags: [d3.js]
 ---
 {% include JB/setup %}
 
