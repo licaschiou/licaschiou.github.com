@@ -48,3 +48,7 @@ This is a simple exploratory analysis , no association or causality implied.
 Without detail information for us to calculate the proportion of cases from each country, the case number doesn't mean much. For example, the reason why there are many cases from Japan could be that we just love Japanese food and import much more from Japan than from other countries. 
 
 However, the food scandals do make us worry. Even though FDA tried to prevent bad food from importing into Taiwan. They seemed to fail to regulate local food companies.  
+
+#### Source code  
+
+[Github](http://github.com/licaschiou/FDA_Food_Standards_Violation){:target="_blank"}
